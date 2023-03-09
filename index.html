@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 7</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/script.js"></script>
+</head>
+<body>
+    <header class="header header__content center">
+        <h1 class="header__title">Добро пожаловать<br>на мой сайт !</h1>
+        <div class="header__text">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <span class="header__span">поехали</span> и <span class="header__span">приступай</span></div>
+        <button class="header__button button"> Поехали!</button>
+    </header>  
+    <main class="main center">
+        <div class="main__nav">
+            <div class="nav__item nav__item1">Игра 1</div>
+            <div class="nav__item nav__item2">Игра 2</div>
+            <div class="nav__item nav__item3">Игра 3</div>
+        </div>
+        <div class="main__game1">
+            <div class="game1__content">
+                <div class="game1__title">Времена года!</div>
+                <div class="game1__text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</div>
+                <button class="game1__button button" onclick="startGame1();">Играть!</button>
+            </div>
+            <div class="game1__imgbox">
+                <img class="game1__imagebig" src="img/firstGameBig.png" alt="Первая игра">
+                <img class="game1__imagesmall" src="img/firstGameSmall.png" alt="Первая игра">
+            </div>
+        </div>
+        <div class="main__game2">
+            <div class="game2__content">
+                <div class="game2__title">Запомни слова </div>
+                <div class="game2__text">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</div>
+                <button class="game2__button button" onclick="startGame2();">Играть!</button>
+            </div>
+            <div class="game2__imgbox">
+                <img class="game2__imagebig" src="img/secondGameBig.png" alt="Вторая игра">
+                <img class="game2__imagesmall" src="img/secondGameSmall.png" alt="Вторая игра">
+            </div>
+        </div>
+        <div class="main__game3">
+            <div class="game3__content">
+                <div class="game3__title">Игра в загадки</div>
+                <div class="game3__text">Компьютер загадывает загадку, вам необходимо ее угадать, если вы дадите не правильный ответ, то компьютер даст вам подсказку. У вас будет три попытки и две подсказки.</div>
+                <button class="game3__button button">Играть!</button>
+            </div>
+        </div>
+    </main>  
+    <footer class="footer center">
+        Все права защищены
+    </footer>    
+</body>
+</html>
